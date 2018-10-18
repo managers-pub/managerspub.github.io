@@ -9,7 +9,7 @@ module.exports = function header(path) {
 
   const template = `<header>
             <div class="container">
-                <a href="/"><h1><img src="${path}public/img/manage-and-chill-logo.png" alt="Manage and Chill" class="logo"></h1></a>
+                <a href="/"><h1><img src="${path}public/img/managers-table-logo.png" alt="Manager's Table" class="logo"></h1></a>
                 <div class="bottom">
                     <ul class="feeds">
                         <li><a href="${strings.urls[0].itunes}"><img src="${path}public/img/podcast.svg" alt="Subscripe to iTunes Podcast"></a></li>

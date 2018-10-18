@@ -7,3 +7,4 @@
 node_modules/
 test-output/
 episode.html
+package-lock.json
