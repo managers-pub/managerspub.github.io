@@ -1,0 +1,101 @@
+// File Name: _episodes.scss
+// Description: Style the list of episodes
+// Used by: style.scss.scss,
+// Dependencies:
+// Date created: 14/02/2016
+// SassySass v1.3.1
+// ------------------------------------------------------------
+
+.episodes{
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .episode-number{
+    display: inline-block;
+    font-size: 28px;
+    background: black;
+    color: white;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 70px;
+  }
+
+  p{
+    width: 100%;
+    margin-left: 85px;
+  }
+
+  h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 30px 0 20px;
+
+    &:hover, &:focus{
+      background: black;
+    }
+
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+
+  .title{
+    font-size: 36px;
+    margin: 0 0 0 15px;
+    width: calc(100% - 85px);
+  }
+
+  .date {
+    font-style: italic;
+  }
+
+  ul, ol{
+    li{
+      position: relative;
+      border-bottom: 1px dotted black;
+      &:last-child{
+        border-bottom: none;
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    .episode-number {
+      margin: 0 10px 0 0;
+      order: 1;
+      font-size: 14px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+    .title {
+      order: 3;
+      margin: 15px 0;
+    }
+    .date {
+      order: 2;
+      margin-bottom: 0;
+      line-height: 40px;
+      width: calc(100% - 50px);
+    }
+    .description {
+      order: 4;
+    }
+    p {
+      margin-left: 0;
+    }
+  }
+}
