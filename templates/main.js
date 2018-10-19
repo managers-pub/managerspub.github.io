@@ -63,7 +63,7 @@ module.exports = function main(pageType, content, title, desc) {
                   <link rel="icon" href="http://${strings.urls.domain}/favicon.ico" type="image/x-icon">
                   <link rel="canonical" href="http://${strings.urls.domain}/">
                   <link rel="stylesheet" href="${path}${css}" type="text/css" media="screen">
-                  ${ga('UA-74493735-1')}
+                  ${ga('UA-127809400-1')}
               </head>
               <body>
                   ${header(path)}
