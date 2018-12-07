@@ -1,5 +1,24 @@
 [
   {
+    "episode": "002",
+    "title": "Recruiting and hiring",
+    "description": "In this episode, we are joined by Philiam Boyer, a recruiter from Netflix, to talk with us about how managers and recruiters can work together to hire talented engineers for the team.",
+    "id": "",
+    "published": "December 6, 2018",
+    "transcribed": false,
+    "panel": [
+      "Ryan Burgess",
+      "Jared Jordan"
+    ],
+    "guests": [
+      {
+        "name": "Philiam Boyer",
+        "twitter": "philiam01"
+      }
+    ],
+    "links": []
+  },
+  {
     "episode": "001",
     "title": "Leading a cross-functional team",
     "description": "In our first episode, we talk about our experience leading teams that have engineers who are working cross-functional and writing different languages.",
@@ -11,7 +30,6 @@
       "Jared Jordan"
     ],
     "guests": [],
-    "links": [
-    ]
+    "links": []
   }
 ]
