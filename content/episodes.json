@@ -1,5 +1,28 @@
 [
   {
+    "episode": "003",
+    "title": "Starting as a new manager",
+    "description": "In this episode, we are joined by Netflix engineering managers, Micah Ransdell and Jordanna Kwok to talk with us about what it's like to move into management.",
+    "id": "605182107",
+    "published": "April 12, 2019",
+    "transcribed": false,
+    "panel": [
+      "Ryan Burgess",
+      "Jared Jordan"
+    ],
+    "guests": [
+      {
+        "name": "Jordanna Kwok",
+        "twitter": "jordeewok"
+      },
+      {
+        "name": "Micah Ransdell",
+        "twitter": "micahransdell"
+      }
+    ],
+    "links": []
+  },
+  {
     "episode": "002",
     "title": "Recruiting and hiring",
     "description": "In this episode, we are joined by Philiam Boyer, a recruiter from Netflix, to talk with us about how managers and recruiters can work together to hire talented engineers for the team.",
