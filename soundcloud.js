@@ -67,6 +67,16 @@ function createDetails(num) {
     }
   }
 
+  // get pick details
+  const picks = episodes[num].picks;
+  if (picks.length !== 0) {
+    //add heading for guests
+    desc += `\nPicks:\n`;
+    for (let pick in picks) {
+      desc += picks[pick].from + ' - ' + picks[pick].title + `\n`;
+    }
+  }
+
   // display final details
   console.log(`\n${fullTitle}\n\n${desc}\n`);
 }
@@ -79,9 +89,7 @@ if (identifier !== undefined) {
       createDetails(ep);
     }
   }
-// if there wasn't an argument passed find the last episode details  
+// if there wasn't an argument passed find the last episode details
 } else {
   createDetails(0);
 }
-
-

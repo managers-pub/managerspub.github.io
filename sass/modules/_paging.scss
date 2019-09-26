@@ -17,14 +17,14 @@
 
   a {
     display: inline;
-    color: white;
-    background: black;
+    color: $chalk;
+    background: $darkBlue;
     padding: 8px 15px;
     text-transform: uppercase;
 
     &:hover, &:focus {
-      color: white;
-      background: black;
+      color: $darkBlue;
+      background: $chalk;
     }
   }
 }

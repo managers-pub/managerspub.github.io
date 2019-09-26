@@ -1,5 +1,24 @@
 [
   {
+    "episode": "004",
+    "title": "Productivity engineering",
+    "description": "In this episode, we are joined by Netflix engineering manager, Paul Onakoya to talk with us about what it's like to lead a productivity engineering team and how to build one up in your company.",
+    "id": "687158692",
+    "published": "September 26, 2019",
+    "transcribed": false,
+    "panel": [
+      "Ryan Burgess",
+      "Jared Jordan"
+    ],
+    "guests": [
+      {
+        "name": "Paul Onakoya",
+        "twitter": "onakoyapaul"
+      }
+    ],
+    "links": []
+  },
+  {
     "episode": "003",
     "title": "Starting as a new manager",
     "description": "In this episode, we are joined by Netflix engineering managers, Micah Ransdell and Jordanna Kwok to talk with us about what it's like to move into management.",

@@ -27,12 +27,12 @@
     }
   }
   a{
-    color: black;
+    color: $darkBlue;
     text-decoration: none;
     font-weight: bold;
 
     &:hover, &:focus{
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid $darkBlue;
     }
   }
 }

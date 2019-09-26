@@ -7,16 +7,17 @@
 // ------------------------------------------------------------
 
 header{
-  color: black;
+  background: #fff;
+  color: #000;
   margin-bottom: 30px;
-  height: 100px;
+  height: 200px;
 
-  @include max-breakpoint(480) {
+  @include max-breakpoint(600) {
     height: auto;
   }
 
   h1{
-    color:black;
+    color:$teal;
     margin: 0;
     @include rem("font-size", 42);
   }
@@ -27,7 +28,7 @@ header{
     margin: 0 auto;
     display: block;
 
-    @include min-breakpoint(480){
+    @include min-breakpoint(600){
       float: left;
       margin: 0;
     }

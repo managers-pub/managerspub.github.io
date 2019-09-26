@@ -6,23 +6,30 @@
 // SassySass v1.3.1
 // ------------------------------------------------------------
 
-.feeds{
+.feeds {
   text-align: center;
 
-  @include min-breakpoint(480){
+  @include min-breakpoint(600){
     float: right;
     margin: 0;
   }
   
-  li{
+  li {
     display: inline-block;
     
-    img{
-      width: 50px;
-      height: 50px;
+    img {
+      width: 25px;
+      height: 25px;
+      // 15px to match with logo
+      margin: 15px 10px;
 
       &:hover, &:focus{
         opacity: 0.7;
+      }
+
+      @include min-breakpoint(600) {
+        width: 30px;
+        height: 30px;
       }
     }
   }
