@@ -29,7 +29,6 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   const epDesc = episodes[i].description;
   const link = createUrl(epTitle);
   const id = episodes[i].id;
-  const picks = episodes[i].picks;
   const links = episodes[i].links;
   const guests = episodes[i].guests;
   const shortDesc = ellipsize(epDesc, 240);

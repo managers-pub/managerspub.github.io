@@ -1,7 +1,26 @@
 [
   {
+    "episode": "005",
+    "title": "Growing Engineers",
+    "description": "In this episode, we are joined by Netflix engineering manager, Tara Ellis to talk with us about ways we as managers can be investing in the growth of the engineers on our teams.",
+    "id": "688934260",
+    "published": "September 30, 2019",
+    "transcribed": false,
+    "panel": [
+      "Ryan Burgess",
+      "Jared Jordan"
+    ],
+    "guests": [
+      {
+        "name": "Tara Ellis",
+        "twitter": "maverick_mind"
+      }
+    ],
+    "links": []
+  },
+  {
     "episode": "004",
-    "title": "Productivity engineering",
+    "title": "Productivity Engineering",
     "description": "In this episode, we are joined by Netflix engineering manager, Paul Onakoya to talk with us about what it's like to lead a productivity engineering team and how to build one up in your company.",
     "id": "687158692",
     "published": "September 26, 2019",
