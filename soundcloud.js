@@ -19,24 +19,6 @@ function createDetails(num) {
   const epDesc = episodes[num].description;
   desc += `${epDesc}\n`;
 
-  // links of items mentioned in the episode
-  const links = episodes[num].links;
-  //if there are links get the items
-  if (links.length !== 0) {
-    //add heading for items
-    desc += `\nItems mentioned in the episode:\n`;
-    for (let link in links) {
-      desc += links[link].title;
-
-      // add comma
-      if (parseInt(link) + 1 !== links.length) {
-        desc += ', ';
-      }else {
-        desc += '\n';
-      }
-    }
-  }
-
   const guests = episodes[num].guests;
   //if there are guests get the names and twitter
   if (guests.length !== 0) {
@@ -67,15 +49,6 @@ function createDetails(num) {
     }
   }
 
-  // get pick details
-  const picks = episodes[num].picks;
-  if (picks.length !== 0) {
-    //add heading for guests
-    desc += `\nPicks:\n`;
-    for (let pick in picks) {
-      desc += picks[pick].from + ' - ' + picks[pick].title + `\n`;
-    }
-  }
 
   // display final details
   console.log(`\n${fullTitle}\n\n${desc}\n`);

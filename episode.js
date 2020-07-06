@@ -29,11 +29,8 @@ const object = {
   'id': '',
   'published': '',
   'transcribed': false,
-  'category': '',
   'panel': names,
-  'guests': guests,
-  'links': links,
-  'picks': picks
+  'guests': guests
 };
 
 // add new object and combine with the existing episodes

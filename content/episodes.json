@@ -1,5 +1,19 @@
 [
   {
+    "episode": "006",
+    "title": "Leading during COVID",
+    "description": "In this episode, we talk about our experiences and challenges that have come with leading during the COVID-19 pandemic.",
+    "id": "853188211",
+    "published": "July 6, 2020",
+    "transcribed": false,
+    "panel": [
+      "Ryan Burgess",
+      "Jared Jordan",
+      "Tara Ellis"
+    ],
+    "guests": []
+  },
+  {
     "episode": "005",
     "title": "Growing Engineers",
     "description": "In this episode, we are joined by Netflix engineering manager, Tara Ellis to talk with us about ways we as managers can be investing in the growth of the engineers on our teams.",

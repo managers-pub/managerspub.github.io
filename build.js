@@ -13,7 +13,6 @@ const main = require('./templates/main');
 const episodeList = require('./templates/episode-list');
 const episodePage = require('./templates/episode-page');
 const episodeGuests = require('./templates/episode-guests');
-const episodeLinks = require('./templates/episode-links');
 const episodePanel = require('./templates/episode-panel');
 const contentPage = require('./templates/content-page');
 
@@ -48,12 +47,6 @@ for(let i = episodes.length - 1; i >= 0; i--) {
   if(guests.length !== 0) {
     // add episode guests
     episodeOutput += episodeGuests(guests);
-  }
-
-  // if there are episode links available add them to the page with a links heading
-  if(links.length !== 0) {
-    // add episode links
-    episodeOutput += episodeLinks(links);
   }
 
   // create panel list
