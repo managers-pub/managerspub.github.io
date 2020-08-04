@@ -60,8 +60,8 @@ module.exports = function main(pageType, content, title, desc) {
                    href="http://feeds.soundcloud.com/users/soundcloud:users:206137365/sounds.rss">
                   <meta property="og:image"
                    content="${pageOG}">
-                  <link rel="icon" href="http://${strings.urls.domain}/favicon.ico" type="image/x-icon">
-                  <link rel="canonical" href="http://${strings.urls.domain}/">
+                  <link rel="icon" href="https://managerstable.com/favicon.ico" type="image/x-icon">
+                  <link rel="canonical" href="https://managerstable.com/">
                   <link rel="stylesheet" href="${path}${css}" type="text/css" media="screen">
                   ${ga('UA-127809400-1')}
               </head>
